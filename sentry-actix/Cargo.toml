@@ -15,13 +15,13 @@ edition = "2018"
 sentry-core = { version = "0.24.3", path = "../sentry-core", default-features = false, features = [
     "client",
 ] }
-actix-web = { version = "4.0.0-rc.3", default-features = false }
+actix-web = { version = "4.0.0", default-features = false }
 futures-util = { version = "0.3.5", default-features = false }
 
 [dev-dependencies]
 sentry = { path = "../sentry", features = ["test"] }
-actix-rt = "2.1.0"
+actix-rt = "2.6"
 futures = "0.3"
-actix-web = { version = "4.0.0-rc.3", default-features = false, features = [
+actix-web = { version = "4.0.0", default-features = false, features = [
     "macros",
 ] }
